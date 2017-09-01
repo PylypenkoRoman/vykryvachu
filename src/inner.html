@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Inner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<div class="wrapper inner-page">
+  //= templates/header.html
+  <section class="jumbotron">
+    <div class="jumbotron__in">
+      <h2 class="jumbotron__title">2. Що таке корупція? <br>Хто такий викривач?</h2>
+      <p>В розділі розкривається актуальнiсть проблеми.<br> Наслідки корупції.</p>
+      <div class="arrow-btn-wrapper">
+        <a class="arrow-btn left" href="#">
+          <svg class="icon icon-arrow_left">
+            <use xlink:href="img/svg/sprite.svg#icon-arrow_left"></use>
+          </svg>
+        </a>
+        <a class="arrow-btn right" href="#">
+          <svg class="icon icon-arrow_right">
+            <use xlink:href="img/svg/sprite.svg#icon-arrow_right"></use>
+          </svg>
+        </a>
+      </div>
+      <a class="button blue video-btn" href="#video">
+        <svg class="icon icon-video">
+          <use xlink:href="img/svg/sprite.svg#icon-video"></use>
+        </svg>
+        Дивитися відео
+      </a>
+    </div>
+  </section>
+  <main class="layout">
+    //= templates/article.html
+    //= templates/add-articles.html
+  </main>
+  //= templates/footer.html
+</div>
+
+//= templates/mobile-nav.html
+//= templates/form.html
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+// Media query screen sizes
+$mobile-portrait: 320px
+$mobile-landscape: 480px
+$tablet-portrait: 768px
+$tablet-landscape: 1024px
+$desktop: 1280px
+
+
+
+// Common styles
+html,
+body
+    min-height: 100%
+
+body
+    font-family: 'AvenirNextCyrRegular', sans-serif
+    font-weight: normal
+    background-color: #e1e6e7
+    position: relative
+    &.overflow-hidden
+        overflow: hidden
+
+.wrapper
+    box-sizing: border-box
+    min-height: 100%
+
+.layout
+    position: relative
+    z-index: 5
+
+p.empty
+    padding: 0
+    margin: 0
+    line-height: 0
+
+.hidden-title
+  color: transparent
+  margin: 0
+  padding: 0
+  font-size: 0
+  height: 1px
+  width: 1px
+  visibility: hidden
+  flex: 0
+  position: absolute
+
+.button
+  height: 50px
+  border-radius: 25px
+  padding: 10px 33px
+  box-sizing: border-box
+  text-decoration: none
+  cursor: pointer
+  display: flex
+  align-items: center
+  transition: 0.3s
+  @include respond-to(tablet-landscape)
+    padding: 10px 30px
+  @include respond-to(tablet-portrait)
+    padding: 5px 20px
+    height: 42px
+  &.blue
+    color: #fff
+    background: #2053ac
+    border: 0
+    &:hover
+      background: #01a0f1
+  &.transparent
+    color: #000
+    border: 1px #e4e4e4 solid
+    &:hover
+      border-color: #2053ac
+      background: #2053ac
+      color: #fff
+      svg
+        color: #fff
+  svg
+    margin-right: 12px
+    height: 24px
+    font-size: 24px
+    transition: 0.3s
+
+
+
+
+//original
+.logo
+  display: flex
+  justify-content: center
+  position: relative
+  left: -9px
+  svg
+    margin-right: 15px
+    display: inline-block
+    color: #2254b3
+    height: 27px
+    @include respond-to(mobile-portrait)
+      font-size: 20px
+      height: 20px
+      margin-right: 13px
+  a
+    font-family: 'AvenirNextCyrBold', sans-serif
+    display: flex
+    align-items: center
+    cursor: pointer
+    color: #2254b3
+    font-size: 28px
+    text-decoration: none
+    letter-spacing: -0.025em
+    @include respond-to(mobile-portrait)
+      font-size: 20px
+
+.ScrollSceneIndicators
+  display: none

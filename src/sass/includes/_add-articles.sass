@@ -1,0 +1,61 @@
+.add-articles
+  min-height: 640px
+  position: relative
+  overflow: hidden
+  background-image: url("../img/jumbotron_inner.jpg")
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  box-sizing: border-box
+  padding: 220px 40px 140px
+  @include respond-to(tablet-landscape)
+    background-image: url("../img/jumbotron_inner_1024.jpg")
+    padding: 165px 30px 70px
+    min-height: 545px
+  @include respond-to(tablet-portrait)
+    background-image: url("../img/jumbotron_inner_768.jpg")
+    padding: 152px 30px 250px
+    min-height: 545px
+  @include respond-to(mobile-landscape)
+    background-image: url("../img/jumbotron_inner_480.jpg")
+    padding: 47px 30px 215px
+    flex-direction: column
+  @include respond-to(mobile-portrait)
+    padding: 47px 30px 260px
+    background-image: url("../img/jumbotron_inner_320.jpg")
+  &:after
+    position: absolute
+    content: " "
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 2
+    background: rgba(0,0,0, 0.55)
+  &__in
+    z-index: 10
+    position: relative
+    align-items: stretch
+    max-width: 1124px
+    margin: 0 auto
+    display: flex
+    @include respond-to(mobile-landscape)
+      flex-direction: column
+    .post
+      flex: 1
+      padding-bottom: 40px
+      margin-bottom: 0
+      @include respond-to(tablet-landscape)
+        padding-top: 30px
+      @include respond-to(tablet-portrait)
+        padding-top: 15px
+        padding-bottom: 30px
+        .post__title
+          font-size: 20px
+      &:first-child
+        margin-right: 40px
+        @include respond-to(tablet-landscape)
+          margin-right: 30px
+        @include respond-to(mobile-landscape)
+          margin-right: 0
+          margin-bottom: 30px

@@ -1,0 +1,245 @@
+.article
+  background: #f9f9f9
+  max-width: 1120px
+  margin: -80px auto -122px
+  padding: 80px 0 35px 245px
+  box-sizing: border-box
+  position: relative
+  border-top-right-radius: 6px
+  border-bottom-right-radius: 6px
+  z-index: 10
+  @include respond-to(tablet-landscape)
+    padding: 60px 0 35px 206px
+    margin: -60px 30px -103px
+  @include respond-to(tablet-portrait)
+    padding: 60px 0 35px 82px
+  @include respond-to(mobile-landscape)
+    padding: 30px 0 35px 30px
+    margin: 0
+  @include respond-to(mobile-portrait)
+    padding: 20px 0 30px 20px
+  &__scroll
+    background-image: url("../img/scroll_bg.png")
+    background-repeat: repeat-y
+    width: 250px
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    @include respond-to(tablet-landscape)
+      background-image: url("../img/scroll_bg_1024.png")
+      width: 206px
+    @include respond-to(tablet-portrait)
+      background-image: url("../img/scroll_bg_768.png")
+      width: 82px
+    @include respond-to(mobile-landscape)
+        display: none
+    &:before
+      background-image: url("../img/scroll_start.png")
+      width: 198px
+      height: 39px
+      top: -39px
+      left: 0
+      position: absolute
+      content: ""
+      @include respond-to(tablet-landscape)
+        background-image: url("../img/scroll_start_1024.png")
+        width: 135px
+      @include respond-to(tablet-portrait)
+        background-image: url("../img/scroll_start_768.png")
+        width: 52px
+        height: 19px
+        top: -19px
+      @include respond-to(mobile-landscape)
+        display: none
+    &:after
+      background-image: url("../img/scroll_end.png")
+      width: 197px
+      height: 36px
+      bottom: -36px
+      left: 0
+      position: absolute
+      content: ""
+      @include respond-to(tablet-landscape)
+        background-image: url("../img/scroll_end_1024.png")
+        width: 135px
+      @include respond-to(tablet-portrait)
+        background-image: url("../img/scroll_end_768.png")
+        width: 53px
+        height: 21px
+        bottom: -21px
+      @include respond-to(mobile-landscape)
+        display: none
+  &__counter
+    position: absolute
+    font-size: 14px
+    right: 19px
+    top: 6px
+    color: rgba(0,0,0,0.3)
+    text-decoration: none
+    @include respond-to(tablet-landscape)
+      right: 32px
+      top: 11px
+    @include respond-to(tablet-portrait)
+      right: 25px
+    @include respond-to(mobile-landscape)
+      display: none
+  &__footer
+    border-top: 1px solid #dfdfdf
+    padding-top: 35px
+    display: flex
+    align-items: center
+    @include respond-to(mobile-landscape)
+      padding-right: 30px
+    @include respond-to(mobile-portrait)
+      padding-top: 30px
+
+  .highlighted-info
+    background: #f2f1d7
+    margin-left: -51px
+    padding-top: 35px
+    padding-left: 53px
+    padding-bottom: 30px
+    @include respond-to(tablet-landscape)
+      margin-left: -72px
+    @include respond-to(tablet-portrait)
+      margin-left: -30px
+      padding-top: 35px
+      padding-left: 35px
+      padding-bottom: 30px
+    @include respond-to(mobile-portrait)
+      padding-left: 20px
+      margin-left: -20px
+    .article__counter
+      top: 46px
+  .video-wrapper
+    margin-bottom: 80px
+    width: 100%
+    box-sizing: border-box
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 25px
+    height: 0
+    @include respond-to(mobile-landscape)
+      padding-right: 30px
+      margin-bottom: 30px
+    @include respond-to(mobile-portrait)
+      margin-right: 20px
+      margin-bottom: 20px
+  .video
+    border: 0
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+  p
+    line-height: 26px
+    font-size: 18px
+    padding-left: 60px
+    padding-right: 60px
+    box-sizing: border-box
+    max-width: 728px
+    margin-bottom: 60px
+    &:last-child
+      margin-bottom: 0
+    @include respond-to(tablet-portrait)
+      padding-left: 32px
+    @include respond-to(mobile-landscape)
+      padding-right: 30px
+      padding-left: 0
+      margin-bottom: 30px
+    @include respond-to(mobile-portrait)
+      padding-right: 20px
+      font-size: 16px
+      margin-bottom: 20px
+      line-height: 22px
+  h3
+    font-size: 35px
+    color: #000
+    margin: 0 0 30px
+    padding-right: 60px
+    max-width: 640px
+    font-family: 'AvenirNextCyrBold', sans-serif
+    @include respond-to(tablet-portrait)
+      font-size: 30px
+    @include respond-to(mobile-landscape)
+      font-size: 25px
+      padding-right: 30px
+    @include respond-to(mobile-portrait)
+      padding-right: 20px
+      font-size: 20px
+      margin-bottom: 20px
+  figure
+    position: relative
+    margin: 0 0 60px
+    @include respond-to(mobile-landscape)
+      margin: 0 0 30px
+
+  blockquote
+    padding: 35px 0 35px 60px
+    border-top: 1px solid #dfdfdf
+    border-bottom: 1px solid #dfdfdf
+    font-size: 28px
+    line-height: 34px
+    color: #000
+    max-width: 600px
+    position: relative
+    margin: 0 60px 60px 0
+    font-family: 'AvenirNextCyrLight', sans-serif
+    @include respond-to(mobile-landscape)
+      font-size: 25px
+      margin: 0 25px 30px 0
+      padding: 27px 0 27px 34px
+    @include respond-to(mobile-portrait)
+      margin-right: 20px
+      margin-bottom: 20px
+      padding: 20px 0 20px 30px
+      font-size: 20px
+      line-height: 26px
+    svg
+      position: absolute
+      height: 16px
+      top: 40px
+      left: -7px
+      @include respond-to(mobile-landscape)
+        height: 12px
+      @include respond-to(mobile-portrait)
+        top: 28px
+        left: -8px
+  img
+    display: block
+    margin-bottom: 48px
+    width: 100%
+    @include respond-to(mobile-landscape)
+      margin-bottom: 30px
+    @include respond-to(mobile-portrait)
+      margin-bottom: 20px
+  ul
+    padding-left: 80px
+    padding-right: 60px
+    list-style: none
+    margin: 0
+    @include respond-to(mobile-landscape)
+      padding-left: 22px
+      padding-right: 30px
+    @include respond-to(mobile-portrait)
+      padding-right: 20px
+      margin-bottom: 20px
+    li
+      margin-bottom: 12px
+      font-size: 18px
+      line-height: 26px
+      box-sizing: border-box
+      max-width: 590px
+      position: relative
+      &:before
+        content: ""
+        width: 8px
+        height: 8px
+        border-radius: 50%
+        background: #2254b3
+        position: absolute
+        left: -20px
+        top: 8px

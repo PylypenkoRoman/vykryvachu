@@ -1,0 +1,18 @@
+// Mixin for responsive.
+@mixin respond-to($media) {
+	@if $media == mobile-portrait {
+		@media only screen and (max-width: $mobile-landscape - 1) { @content; }
+	}
+	@else if $media == mobile-landscape {
+		@media only screen and (max-width: $tablet-portrait - 1) { @content; }
+	}
+	@else if $media == tablet-portrait {
+		@media only screen and (max-width: $tablet-landscape - 1) { @content; }
+	}
+	@else if $media == tablet-landscape {
+		@media only screen and (max-width: $desktop - 1) { @content; }
+	}
+	@else if $media == desktop {
+		@media only screen and (min-width: $desktop) { @content; }
+	}
+}

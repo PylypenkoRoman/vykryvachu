@@ -1,0 +1,207 @@
+.jumbotron
+    min-height: 690px
+    position: relative
+    overflow: hidden
+    background-repeat: no-repeat
+    background-image: url("../img/jumbotron.jpg")
+    background-position: center center
+    background-size: cover
+    display: flex
+    @include respond-to(tablet-landscape)
+      min-height: 620px
+      background-image: url("../img/jumbotron_1024.jpg")
+    @include respond-to(tablet-portrait)
+      background-image: url("../img/jumbotron_768.jpg")
+      min-height: 585px
+    @include respond-to(mobile-landscape)
+      background-image: url("../img/jumbotron_480.jpg")
+      min-height: 496px
+    @include respond-to(mobile-portrait)
+      background-image: url("../img/jumbotron_320.jpg")
+      min-height: 440px
+    &__in
+      box-sizing: border-box
+      padding: 160px 40px 140px
+      position: relative
+      z-index: 5
+      flex: 1
+      @include respond-to(tablet-landscape)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding-top: 80px
+        padding-bottom: 50px
+    &__title
+        position: relative
+        animation: text-animation 1s
+        color: #000
+        font-size: 45px
+        text-align: center
+        font-weight: bold
+        max-width: 650px
+        margin: 0 auto 16px
+        font-family: 'AvenirNextCyrBold', sans-serif
+        letter-spacing: -0.01em
+        @include respond-to(tablet-landscape)
+          font-size: 37px
+          margin: 0 auto 26px
+        @include respond-to(tablet-portrait)
+          max-width: 516px
+          margin: 0 auto 8px
+        @include respond-to(mobile-landscape)
+          font-size: 27px
+          max-width: 360px
+          margin-bottom: 16px
+        @include respond-to(mobile-portrait)
+          font-size: 20px
+          margin-bottom: 7px
+    &__sub-title
+        animation: text-animation 1s
+        position: relative
+        color: #000
+        text-align: center
+        font-size: 45px
+        max-width: 650px
+        margin: 0 auto 30px
+        display: block
+        letter-spacing: -0.01em
+        @include respond-to(tablet-landscape)
+          font-size: 37px
+        @include respond-to(tablet-portrait)
+          max-width: 400px
+          margin: 0 auto 26px
+        @include respond-to(mobile-landscape)
+          font-size: 27px
+          max-width: 360px
+        @include respond-to(mobile-portrait)
+          font-size: 20px
+          margin-bottom: 19px
+    p
+        animation: text-animation 1s
+        position: relative
+        color: #000
+        text-align: center
+        font-size: 17px
+        max-width: 580px
+        margin: 0 auto
+        @include respond-to(tablet-portrait)
+          max-width: 400px
+        @include respond-to(mobile-landscape)
+          max-width: 320px
+    .arrow-btn-wrapper
+      @include respond-to(mobile-portrait)
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 24px
+    .arrow-btn
+      position: absolute
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 50%
+      height: 50px
+      width: 50px
+      top: 50%
+      background: #2254b3
+      margin-top: -45px
+      transition: 0.3s
+      @include respond-to(mobile-landscape)
+        margin-top: -69px
+      @include respond-to(mobile-portrait)
+        position: static
+        height: 40px
+        width: 40px
+        margin: 0
+        &:first-child
+          margin-right: 20px
+      &:hover
+        background: #01a0f1
+      &.left
+        left: 30px
+        @include respond-to(mobile-landscape)
+          left: 18px
+      &.right
+        right: 30px
+        @include respond-to(mobile-landscape)
+          right: 18px
+      svg
+        height: 18px
+        font-size: 18px
+        color: #fff
+
+
+.inner-page
+  .jumbotron
+    min-height: 700px
+    background-image: url("../img/jumbotron_inner.jpg")
+    @include respond-to(tablet-landscape)
+      background-image: url("../img/jumbotron_inner_1024.jpg")
+    @include respond-to(tablet-portrait)
+      background-image: url("../img/jumbotron_inner_768.jpg")
+    @include respond-to(mobile-landscape)
+      background-image: url("../img/jumbotron_inner_480.jpg")
+      min-height: 550px
+    @include respond-to(mobile-portrait)
+      background-image: url("../img/jumbotron_inner_320.jpg")
+      min-height: 422px
+    &__in
+      padding-top: 196px
+      padding-bottom: 100px
+      @include respond-to(tablet-landscape)
+        padding-top: 240px
+      @include respond-to(mobile-landscape)
+        padding-top: 192px
+        padding-bottom: 30px
+      @include respond-to(mobile-portrait)
+        padding-top: 114px
+    &__title
+      color: #fff
+      font-size: 55px
+      line-height: 1.2
+      @include respond-to(tablet-landscape)
+        font-size: 37px
+        margin: 0 auto 26px
+      @include respond-to(tablet-portrait)
+        max-width: 516px
+        margin: 0 auto 30px
+      @include respond-to(mobile-landscape)
+        font-size: 27px
+        max-width: 360px
+        margin-bottom: 28px
+      @include respond-to(mobile-portrait)
+        font-size: 20px
+        margin-bottom: 12px
+    &__sub-title
+      color: #fff
+    p
+      color: #fff
+    .video-btn
+      width: 207px
+      margin: 126px auto 0
+      padding: 10px 25px
+      height: 50px
+      @include respond-to(tablet-landscape)
+        margin: 116px auto 0
+      @include respond-to(mobile-landscape)
+        margin-top: 107px
+      @include respond-to(mobile-portrait)
+        margin-top: 74px
+    &:after
+      position: absolute
+      content: " "
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 2
+      background: rgba(0,0,0, 0.55)
+
+
+@keyframes text-animation
+  from
+    top: -70px
+    opacity: 0
+  to
+    top: 0
+    opacity: 1

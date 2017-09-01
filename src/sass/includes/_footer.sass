@@ -1,0 +1,109 @@
+.footer
+    display: flex
+    padding: 20px 40px
+    height: 100px
+    justify-content: space-between
+    align-items: center
+    box-sizing: border-box
+    margin-top: 25px
+    @include respond-to(tablet-landscape)
+      padding: 20px 30px
+      margin-top: 5px
+    @include respond-to(tablet-portrait)
+      flex-direction: column
+      justify-content: center
+      height: auto
+      padding: 35px 30px 40px
+    @include respond-to(mobile-portrait)
+      margin-top: 0
+      padding: 30px 30px 40px
+
+
+    .logo
+        flex: 1
+        justify-content: flex-start
+        @include respond-to(tablet-portrait)
+          flex: 0
+          order: 1
+          justify-content: space-between
+          margin-bottom: 25px
+        @include respond-to(mobile-portrait)
+          left: 0
+
+    .social-networks
+        flex: 1
+        justify-content: flex-end
+        display: flex
+        @include respond-to(tablet-portrait)
+          flex: 0
+          justify-content: center
+          order: 2
+          margin-bottom: 20px
+        &__item
+            width: 20px
+            height: 20px
+            cursor: pointer
+            line-height: 1
+            color: #2254b3
+            transition: 0.3s
+            &:hover
+                color: #01a0f1
+            svg
+                width: 20px
+                height: 20px
+                font-size: 20px
+        .social-networks__item + .social-networks__item
+            margin-left: 20px
+    .copyright
+        flex: 3
+        text-align: center
+        margin: 0
+        line-height: 26px
+        font-size: 14px
+        color: rgba(32, 83, 172, 0.42)
+        @include respond-to(tablet-portrait)
+          flex: 0
+          margin-bottom: 15px
+          order: 3
+        @include respond-to(mobile-portrait)
+          max-width: 200px
+
+    .developer
+        display: inline-block
+        margin-left: 20px
+        &__link
+           color: rgba(32, 83, 172, 0.42)
+           text-decoration: none
+           cursor: pointer
+           transition: 0.3s
+           &:hover
+              color: #2053ac
+        @include respond-to(mobile-portrait)
+           margin: 0
+
+
+.inner-page
+    .footer
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        z-index: 10
+        margin: 0
+        .logo
+            a
+              color: #fff
+            svg
+              color: #fff
+        .copyright
+            font-size: 14px
+            color: #fff
+        .developer__link
+            color: #fff
+            &:hover
+                color: #2053ac
+        .social-networks  svg
+            color: #fff
+            &:hover
+              color: #2053ac
+
