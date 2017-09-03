@@ -9,13 +9,15 @@
     box-sizing: border-box
     overflow-y: auto
     transition: 0.4s
+    display: flex
     background: rgba(32, 83, 172, 0.9)
     flex-direction: column
     transform: translateY(-200%)
     padding-bottom: 100px
+    visibility: hidden
     &.open
-      display: flex
       transform: translateY(0)
+      visibility: visible
     &__header
       display: flex
       justify-content: space-between

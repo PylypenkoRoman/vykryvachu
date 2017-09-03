@@ -75,10 +75,11 @@
   &__counter
     position: absolute
     font-size: 14px
-    right: 19px
-    top: 6px
+    right: 15px
+    top: 14px
     color: rgba(0,0,0,0.3)
     text-decoration: none
+    font-family: 'AvenirNextCyrRegular', sans-serif
     @include respond-to(tablet-landscape)
       right: 32px
       top: 11px
@@ -98,22 +99,22 @@
 
   .highlighted-info
     background: #f2f1d7
-    margin-left: -51px
     padding-top: 35px
     padding-left: 53px
     padding-bottom: 30px
+    z-index: 2
+    margin: 0 0 60px -50px
+    position: relative
     @include respond-to(tablet-landscape)
       margin-left: -72px
     @include respond-to(tablet-portrait)
-      margin-left: -30px
       padding-top: 35px
       padding-left: 35px
       padding-bottom: 30px
+      margin: 0 0 60px -30px
     @include respond-to(mobile-portrait)
       padding-left: 20px
       margin-left: -20px
-    .article__counter
-      top: 46px
   .video-wrapper
     margin-bottom: 80px
     width: 100%
@@ -161,11 +162,12 @@
     font-size: 35px
     color: #000
     margin: 0 0 30px
-    padding-right: 60px
-    max-width: 640px
+    padding-right: 100px
     font-family: 'AvenirNextCyrBold', sans-serif
+    position: relative
     @include respond-to(tablet-portrait)
       font-size: 30px
+      padding-right: 60px
     @include respond-to(mobile-landscape)
       font-size: 25px
       padding-right: 30px
@@ -173,12 +175,7 @@
       padding-right: 20px
       font-size: 20px
       margin-bottom: 20px
-  figure
-    position: relative
-    margin: 0 0 60px
-    @include respond-to(mobile-landscape)
-      margin: 0 0 30px
-
+      position: relative
   blockquote
     padding: 35px 0 35px 60px
     border-top: 1px solid #dfdfdf

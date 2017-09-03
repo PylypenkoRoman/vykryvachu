@@ -7,16 +7,18 @@
     box-sizing: border-box
     bottom: -100px
     overflow-y: auto
-    transition: 0.3s
+    transition: 0.4s
     background: rgba(32, 83, 172, 0.9)
-    display: none
     padding: 80px 30px 180px
+    visibility: hidden
+    transform: translateY(200%)
     @include respond-to(mobile-landscape)
       padding: 30px 30px 130px
     @include respond-to(mobile-portrait)
       padding: 20px 20px 120px
     &.open
-      display: block
+      transform: translateY(0)
+      visibility: visible
 .form
   padding: 55px 30px 60px
   box-sizing: border-box
@@ -40,6 +42,7 @@
       font-size: 28px
       margin: 0 0 20px
     @include respond-to(mobile-portrait)
+
       font-size: 24px
   &__text
     font-size: 17px

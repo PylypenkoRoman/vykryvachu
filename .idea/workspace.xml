@@ -2,58 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7fb416a-3b58-432d-ae81-3dc64a11fbd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/add_articles_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/article_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/footer.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_1024.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_1024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_320.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_320.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_480.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_480.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_768.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_768.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_inner.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_inner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_inner_1024.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_inner_1024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_inner_320.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_inner_320.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_inner_480.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_inner_480.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/jumbotron_inner_768.jpg" afterPath="$PROJECT_DIR$/build/img/jumbotron_inner_768.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/post_img.jpg" afterPath="$PROJECT_DIR$/build/img/post_img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_end.png" afterPath="$PROJECT_DIR$/build/img/scroll_end.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_end_1024.png" afterPath="$PROJECT_DIR$/build/img/scroll_end_1024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_end_768.png" afterPath="$PROJECT_DIR$/build/img/scroll_end_768.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_start.png" afterPath="$PROJECT_DIR$/build/img/scroll_start.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_start_1024.png" afterPath="$PROJECT_DIR$/build/img/scroll_start_1024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/scroll_start_768.png" afterPath="$PROJECT_DIR$/build/img/scroll_start_768.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_1024.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_1024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_320.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_320.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_480.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_480.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_768.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_768.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_inner.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_inner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_inner_1024.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_inner_1024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_inner_320.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_inner_320.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_inner_480.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_inner_480.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/jumbotron_inner_768.jpg" afterPath="$PROJECT_DIR$/src/img/jumbotron_inner_768.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/post_img.jpg" afterPath="$PROJECT_DIR$/src/img/post_img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_end.png" afterPath="$PROJECT_DIR$/src/img/scroll_end.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_end_1024.png" afterPath="$PROJECT_DIR$/src/img/scroll_end_1024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_end_768.png" afterPath="$PROJECT_DIR$/src/img/scroll_end_768.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_start.png" afterPath="$PROJECT_DIR$/src/img/scroll_start.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_start_1024.png" afterPath="$PROJECT_DIR$/src/img/scroll_start_1024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/scroll_start_768.png" afterPath="$PROJECT_DIR$/src/img/scroll_start_768.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/style.css" afterPath="$PROJECT_DIR$/build/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/inner.html" afterPath="$PROJECT_DIR$/build/inner.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/partials/animation.js" afterPath="$PROJECT_DIR$/src/js/partials/animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/partials/scripts.js" afterPath="$PROJECT_DIR$/src/js/partials/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_article.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_article.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_common.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_common.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_footer.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_footer.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_form.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_form.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_header.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_header.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_jumbotron.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_jumbotron.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass" afterPath="$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/footer.html" afterPath="$PROJECT_DIR$/src/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/article.html" afterPath="$PROJECT_DIR$/src/templates/article.html" />
     </list>
     <ignored path="vykryvachu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,41 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="inner.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inner.html">
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+            <state relative-caret-position="186">
+              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/form.html">
+      <file leaf-file-name="_article.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/includes/_article.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/footer.html">
+      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/includes/_form.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/includes/_common.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -119,58 +67,28 @@
       <file leaf-file-name="_mobile-nav.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_jumbotron.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/includes/_jumbotron.sass">
+      <file leaf-file-name="_common.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/includes/_common.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1099">
-              <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+            <state relative-caret-position="195">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/partials/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/includes/_form.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/includes/_header.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/includes/_footer.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -191,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/app/img/svg/arrow_left.svg" />
         <option value="$PROJECT_DIR$/app/img/svg/arrow_right.svg" />
         <option value="$PROJECT_DIR$/app/img/svg/quotes.svg" />
@@ -230,18 +147,19 @@
         <option value="$PROJECT_DIR$/src/sass/includes/_posts.sass" />
         <option value="$PROJECT_DIR$/src/templates/mobile-nav.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/sass/includes/_article.sass" />
-        <option value="$PROJECT_DIR$/src/templates/article.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/js/partials/animation.js" />
         <option value="$PROJECT_DIR$/src/templates/footer.html" />
         <option value="$PROJECT_DIR$/src/sass/includes/_common.sass" />
         <option value="$PROJECT_DIR$/src/sass/includes/_footer.sass" />
         <option value="$PROJECT_DIR$/src/sass/includes/_header.sass" />
-        <option value="$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass" />
         <option value="$PROJECT_DIR$/src/sass/includes/_jumbotron.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/js/partials/animation.js" />
+        <option value="$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass" />
         <option value="$PROJECT_DIR$/src/sass/includes/_form.sass" />
+        <option value="$PROJECT_DIR$/src/sass/includes/_article.sass" />
+        <option value="$PROJECT_DIR$/src/templates/article.html" />
+        <option value="$PROJECT_DIR$/src/js/partials/scripts.js" />
       </list>
     </option>
   </component>
@@ -255,9 +173,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1249" />
-    <option name="height" value="704" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -447,6 +364,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.4.0/bin/node" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v7.4.0/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -532,34 +450,34 @@
       <workItem from="1503393066056" duration="44836000" />
       <workItem from="1503776564079" duration="29827000" />
       <workItem from="1504083785629" duration="37345000" />
-      <workItem from="1504282080496" duration="9023000" />
+      <workItem from="1504282080496" duration="13959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121031000" />
+    <option name="totallyTimeSpent" value="125967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1249" height="704" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25570032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -597,14 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sass/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/posts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -623,6 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,25 +610,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/includes/_article.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/article_img.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/img/scroll_bg_768.png">
@@ -841,16 +736,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/partials/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,50 +773,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/includes/_header.sass">
+    <entry file="file://$PROJECT_DIR$/src/js/partials/animation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/includes/_common.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/includes/_jumbotron.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1099">
+        <state relative-caret-position="-954">
           <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/includes/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="404">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/includes/_mobile-nav.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/includes/_form.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/includes/_article.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/includes/_common.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/partials/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
