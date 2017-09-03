@@ -1,7 +1,7 @@
 .article
   background: #f9f9f9
   max-width: 1120px
-  margin: -80px auto -122px
+  margin: -80px auto -104px
   padding: 80px 0 35px 245px
   box-sizing: border-box
   position: relative
@@ -35,8 +35,9 @@
     @include respond-to(mobile-landscape)
         display: none
     &:before
-      background-image: url("../img/scroll_start.png")
-      width: 198px
+      background-image: url("../img/scroll_start_1.png")
+      background-repeat: no-repeat
+      width: 195px
       height: 39px
       top: -39px
       left: 0
@@ -44,28 +45,29 @@
       content: ""
       @include respond-to(tablet-landscape)
         background-image: url("../img/scroll_start_1024.png")
-        width: 135px
+        width: 132px
       @include respond-to(tablet-portrait)
         background-image: url("../img/scroll_start_768.png")
-        width: 52px
+        width: 50px
         height: 19px
         top: -19px
       @include respond-to(mobile-landscape)
         display: none
     &:after
       background-image: url("../img/scroll_end.png")
-      width: 197px
+      width: 195px
       height: 36px
       bottom: -36px
       left: 0
+      background-repeat: no-repeat
       position: absolute
       content: ""
       @include respond-to(tablet-landscape)
         background-image: url("../img/scroll_end_1024.png")
-        width: 135px
+        width: 131px
       @include respond-to(tablet-portrait)
         background-image: url("../img/scroll_end_768.png")
-        width: 53px
+        width: 50px
         height: 21px
         bottom: -21px
       @include respond-to(mobile-landscape)

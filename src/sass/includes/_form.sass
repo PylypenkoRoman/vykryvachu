@@ -1,30 +1,27 @@
 .form-wrapper
-    overflow: hidden
     z-index: 100
     position: fixed
     top: 0
     left: 0
     right: 0
     box-sizing: border-box
-    bottom: 0
+    bottom: -100px
     overflow-y: auto
     transition: 0.3s
     background: rgba(32, 83, 172, 0.9)
     display: none
-    flex-direction: column
-    align-items: center
-    justify-content: center
-    padding: 80px 30px 80px
+    padding: 80px 30px 180px
     @include respond-to(mobile-landscape)
-      padding: 30px
+      padding: 30px 30px 130px
     @include respond-to(mobile-portrait)
-      padding: 20px
+      padding: 20px 20px 120px
     &.open
-      display: flex
+      display: block
 .form
   padding: 55px 30px 60px
   box-sizing: border-box
   width: 620px
+  margin: 0 auto
   background: #fff
   border-radius: 3px
   @include respond-to(tablet-portrait)
@@ -41,9 +38,8 @@
       margin: 0 0 25px
     @include respond-to(mobile-landscape)
       font-size: 28px
-        margin: 0 0 30px
-    @include respond-to(mobile-portrait)
       margin: 0 0 20px
+    @include respond-to(mobile-portrait)
       font-size: 24px
   &__text
     font-size: 17px

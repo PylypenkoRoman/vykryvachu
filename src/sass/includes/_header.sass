@@ -50,6 +50,8 @@
         font-size: 20px
       &:hover
         color: #01a0f1
+        @include respond-to(tablet-portrait)
+          color: #2254b3
     .social-networks__item + .social-networks__item
       margin-left: 20px
 
@@ -94,6 +96,8 @@
     display: flex
   &:hover
     background: #01a0f1
+    @include respond-to(tablet-portrait)
+      background: #2254b3
   svg
     width: 16px
 

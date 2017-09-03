@@ -65,6 +65,8 @@ p.empty
     border: 0
     &:hover
       background: #01a0f1
+      @include respond-to(tablet-portrait)
+        background: #2053ac
   &.transparent
     color: #000
     border: 1px #e4e4e4 solid
@@ -74,6 +76,13 @@ p.empty
       color: #fff
       svg
         color: #fff
+      @include respond-to(tablet-portrait)
+        background: transparent
+        border: 1px #e4e4e4 solid
+        color: #000
+        svg
+          color: #000
+
   svg
     margin-right: 12px
     height: 24px

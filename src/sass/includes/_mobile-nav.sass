@@ -5,18 +5,17 @@
     top: 0
     left: 0
     right: 0
+    bottom: -100px
     box-sizing: border-box
     overflow-y: auto
     transition: 0.4s
     background: rgba(32, 83, 172, 0.9)
     flex-direction: column
-    bottom: 0
-    transform: translateY(-100%)
-
+    transform: translateY(-200%)
+    padding-bottom: 100px
     &.open
       display: flex
       transform: translateY(0)
-
     &__header
       display: flex
       justify-content: space-between
@@ -27,7 +26,6 @@
       @include respond-to(mobile-portrait)
         padding: 10px 20px
         flex: 0 1 60px
-
     &__content
       padding: 30px
       box-sizing: border-box
@@ -36,6 +34,8 @@
       justify-content: center
       align-items: center
       flex: 1
+      @media screen and (max-height: 400px)
+        padding: 10px
     &__list
       margin: 0
       padding: 0
@@ -43,10 +43,14 @@
     &__item
       margin-bottom: 40px
       text-align: center
+      &:last-child
+        margin-bottom: 0
       @include respond-to(mobile-landscape)
         margin-bottom: 35px
       @include respond-to(mobile-portrait)
         margin-bottom: 25px
+      @media screen and (max-height: 400px)
+        margin-bottom: 20px
       a, span
         cursor: pointer
         color: #fff
@@ -60,8 +64,12 @@
           font-size: 27px
         @include respond-to(mobile-portrait)
           font-size: 20px
+        @media screen and (max-height: 400px)
+          font-size: 20px
         &:hover
           color: #01a0f1
+          @include respond-to(tablet-portrait)
+            color: #fff
     &__close-btn
         width: 50px
         height: 50px
@@ -104,6 +112,8 @@
       align-items: center
       @include respond-to(mobile-landscape)
         margin-top: 45px
+      @media screen and (max-height: 400px)
+        margin-top: 20px
       &__item
         width: 40px
         height: 40px
@@ -121,5 +131,7 @@
           font-size: 26px
         &:hover
           color: #01a0f1
+          @include respond-to(tablet-portrait)
+            color: #fff
       .social-networks__item + .social-networks__item
         margin-left: 20px
